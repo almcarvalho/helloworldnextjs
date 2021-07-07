@@ -1,0 +1,25 @@
+{
+  "name": "helloworldnextjs",
+  "version": "1.0.0",
+  "description": "Aplicação WEB completa de estudos com Node.js e Next.js rodando em produção na Vercel",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/almcarvalho/helloworldnextjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/almcarvalho/helloworldnextjs/issues"
+  },
+  "homepage": "https://github.com/almcarvalho/helloworldnextjs#readme",
+  "dependencies": {
+    "next": "^11.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
