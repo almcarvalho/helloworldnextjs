@@ -1,11 +1,19 @@
 function Home() {
-    return <div> 
-        <h1> Hello World Next.js </h1> 
-        <h1> Meu primeiro site usando uma das ferramentas mais modernas de desenvolvimento web. </h1> 
-        <br/> Parece simples mas até aqui aprendi muita coisa: colocar o projeto no ar, versionando no github e publicado no servidor de produção vercel instantaneamente depois do commit na branch master <br/> 
-        Agradecimentos: <br/>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/EW7m2WIvFgQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+    return <div>
+        <h1> Hello World - First Web App - Primeiro Sistema Web</h1>
+        <h1> Minha primeira Aplicação web desenvolvida usando as mais modernas e atuais ferramentas de desenvolvimento de software.</h1>
+        <br /> Parece simples mas até aqui aprendi muita coisa: colocar o projeto no ar, versionando no github e publicado no servidor de produção vercel instantaneamente depois do commit na branch master <br />
+        Agradecimentos: <a href="https://www.youtube.com/watch?v=EW7m2WIvFgQ" target="_blank">Tutorial Next.js and Vercel</a> <br />
+        <br />
+        <h2>Funcionalidades Sendo Implementadas </h2>
+        <nav role="navigation">
+            <ul>
+                <li><a href="/login" title="Tutorial de como fazer a chamada a api do firebase: https://www.youtube.com/watch?v=dDpbRlBvNLo">09/07/2021 - Autenticação: Se "Apronchegue, entre aí"</a></li>
+                <li><a href="#">Permissões</a></li>
+                <li><a href="#">Autorização</a></li>
+            </ul>
+        </nav>
+    </div>
 }
 
 export default Home

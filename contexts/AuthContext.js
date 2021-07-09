@@ -11,7 +11,7 @@ export function AuthProvider({ children }) {
     const signin = async () => {
         try {
             setLoading(true);
-            return await firebase.auth().signInWithPopup(new firebase.auth.GithubAuthProvider())
+            return await firebase.auth().signInWithPopup(new firebase.auth.GoogleAuthProvider())
                 .then((response) => {
                     setUser(response.user);
                     Router.push('/dashboard');
@@ -20,6 +20,21 @@ export function AuthProvider({ children }) {
             setLoading(false);
         }
     }
+
+    const signinFace = async () => {
+        try {
+            setLoading(true);
+            return await firebase.auth().signInWithPopup(new firebase.auth.FacebookAuthProvider())
+                .then((response) => {
+                    setUser(response.user);
+                    Router.push('/dashboard');
+                });
+        } finally {
+            setLoading(false);
+        }
+    }
+
+
     const signout = () => {
         try {
             Router.push('/');
@@ -38,6 +53,7 @@ export function AuthProvider({ children }) {
         user,
         loading,
         signin,
+        signinFace,
         signout
     }}>{children}</AuthContext.Provider>;
 }
