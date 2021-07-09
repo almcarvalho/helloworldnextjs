@@ -2,8 +2,6 @@ import useAuth from "../hooks/useAuth"
 
 function dashboard() {
 
-    debugger
-
     const { user } = useAuth();
 
     if (user === null) {
