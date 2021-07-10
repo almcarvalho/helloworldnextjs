@@ -13,6 +13,8 @@ function Home() {
                 <li><a href="#">Autorização</a></li>
             </ul>
         </nav>
+        <br />
+        <a href="https://github.com/almcarvalho/helloworldnextjs" target="_blank">Código fonte do projeto</a>
     </div>
 }
 

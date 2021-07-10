@@ -1,6 +1,5 @@
 function historicoAcessos() {
 
-
     function voltar() {
         window.history.back();
     }
